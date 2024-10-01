@@ -1,0 +1,12 @@
+/* Custom Media Query for smaller screens */
+@media (max-width: 768px) {
+  .review-carousel-item {
+    width: 100% !important; /* Take full width of the container */
+  }
+}
+
+@media (min-width: 768px) {
+  .review-carousel-item {
+    width: 50% !important; /* Show two reviews side by side */
+  }
+}
